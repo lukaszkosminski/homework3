@@ -1,4 +1,4 @@
-public enum DrinksType {
+public enum DrinksType  {
     cola,
     beer,
     juice,

@@ -1,4 +1,4 @@
-public class Client {
+public class Client extends Drinks{
 
     private String name;
     private int telephone;

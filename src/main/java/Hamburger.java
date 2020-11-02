@@ -1,7 +1,7 @@
-public class Hamburger {
+public class Hamburger  {
     private HamburgerType hamburgerType;
     private HamburgerSize hamburgerSize;
-    private Integer quantity;
+    private Integer quantityHamburger;
 
 
     public HamburgerType getHamburgerType() {
@@ -20,11 +20,11 @@ public class Hamburger {
         this.hamburgerSize = hamburgerSize;
     }
 
-    public Integer getQuantity() {
-        return quantity;
+    public Integer getQuantityHamburger() {
+        return quantityHamburger;
     }
 
-    public void setQuantity(Integer quantity) {
-        this.quantity = quantity;
+    public void setQuantityHamburger(Integer quantityHamburger) {
+        this.quantityHamburger = quantityHamburger;
     }
 }

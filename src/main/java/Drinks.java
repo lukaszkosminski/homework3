@@ -1,7 +1,7 @@
-public class Drinks {
+public class Drinks extends Pizza{
 
     private DrinksType drinksType;
-    private Integer quantity;
+    private Integer quantityDrinks;
 
     public DrinksType getDrinksType() {
         return drinksType;
@@ -11,11 +11,11 @@ public class Drinks {
         this.drinksType = drinksType;
     }
 
-    public Integer getQuantity() {
-        return quantity;
+    public Integer getQuantityDrinks() {
+        return quantityDrinks;
     }
 
-    public void setQuantity(Integer quantity) {
-        this.quantity = quantity;
+    public void setQuantityDrinks(Integer quantityDrinks) {
+        this.quantityDrinks = quantityDrinks;
     }
 }

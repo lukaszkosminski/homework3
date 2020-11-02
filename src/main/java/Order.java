@@ -1,26 +1,26 @@
-public class Order extends Main  {
+public class Order extends Client  {
 
 
     private Integer orderNumber;
 
-    public void order(){
-
-        Order order1 = new Order();
-        order1.
-
-
-
-
+    public Integer getOrderNumber() {
+        return orderNumber;
     }
 
-
-
-
-
-
-
-
-
-
-
+    public void setOrderNumber(Integer orderNumber) {
+        this.orderNumber = orderNumber;
+    }
+    
+    
 }
+
+
+
+
+
+
+
+
+
+
+

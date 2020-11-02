@@ -1,8 +1,8 @@
-public class Pizza {
+public class Pizza extends Hamburger {
 
     private PizzaSize pizzaSizze;
     private PizzaType pizzaType;
-    private Integer quantity;
+    private Integer quantityPizza;
 
     public PizzaSize getPizzaSizze() {
         return pizzaSizze;
@@ -20,11 +20,11 @@ public class Pizza {
         this.pizzaType = pizzaType;
     }
 
-    public Integer getQuantity() {
-        return quantity;
+    public Integer getQuantityPizza() {
+        return quantityPizza;
     }
 
-    public void setQuantity(Integer quantity) {
-        this.quantity = quantity;
+    public void setQuantityPizza(Integer quantityPizza) {
+        this.quantityPizza = quantityPizza;
     }
 }
